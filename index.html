@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <link href="./style.css" rel="stylesheet">
+  
+  <title>Hello </title>
+
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Escolha um plano de teste</legend>
+      <div class="radio-wrapper">
+        <div>
+          <input type="radio" name="plano" id="plano1" value="plano1">
+          <label for="plano1">Padrão</label>
+        </div>
+        <p>3 GB de armazenamento em nuvem, backup semanal e monitoramento 1 vez na semana.</p>
+      </div>
+
+      <div class="radio-wrapper">
+        <div>
+          <input type="radio" name="plano" id="plano2" value="plano2">
+          <label for="plano2">Avançado</label>
+        </div>
+        <p>20 GB de armazenamento em nuvem, backup diario, monitoramento 24 horas com suporte</p>
+      </div>
+
+      <div class="checkbox-wrapper">
+        <input type="checkbox" name="termos" id="termos" checked>
+        <label for="termos">Aceita nossos <a href="#">termos e condições</a>?</label>
+      </div>
+
+      <div class="checkbox-wrapper">
+        <input type="checkbox" name="notificacao" id="notificacao" checked>
+        <label for="notificacao">Deseja receber notificações quando houver pacotes em promoção?</label>
+      </div>
+
+      <button type="submit">Iniciar versão gratuita</button>
+      <small>Necessario cartão de crédito ou débito</small>
+
+    </fieldset>
+  </form>
+</body>
+</html>
